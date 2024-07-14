@@ -1,0 +1,1 @@
+url = "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@2024.7.14/v1/currencies/"

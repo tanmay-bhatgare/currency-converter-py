@@ -17,3 +17,7 @@ class CFont:
     @staticmethod
     def font_xl() -> ctk.CTkFont:
         return ctk.CTkFont(family="", size=46, weight="bold")
+
+    @staticmethod
+    def label_font() -> ctk.CTkFont:
+        return ctk.CTkFont(family="Courier", size=38, weight="bold")
