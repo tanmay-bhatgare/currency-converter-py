@@ -1,0 +1,19 @@
+import customtkinter as ctk
+
+def validate_numeric_input(input_str):
+    if input_str.isdigit() or input_str == "":
+        return True
+    return False
+
+# Initialize the main window
+root = ctk.CTk()
+
+# Create a validation command
+vcmd = (root.register(validate_numeric_input), '%P')
+
+# Create a CTkEntry widget that only accepts numeric input
+entry = ctk.CTkEntry(root, validate="key", validatecommand=vcmd)
+entry.pack(pady=20)
+
+# Run the main event loop
+root.mainloop()
