@@ -36,7 +36,7 @@ Your contributions and hard work are greatly appreciated!
 
 ```bash
 git clone https://github.com/yourusername/currency-converter-gui.git
-cd currency-converter
+cd currency-converter-py
 ```
 
 - ### `If using python virtual environment `
@@ -54,7 +54,11 @@ cd currency-converter
    pip install -r requirements.txt
    ```
 
-4. **Run the game:**
+4. **Migrate to app:**
    ```sh
-   python main.py
+   cd app
+   ```
+4. **Run main.py:**
+   ```sh
+   python -m .\main.py
    ```
