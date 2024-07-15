@@ -17,8 +17,8 @@ This is a class based GUI-based currency converter built using `customtkinter` a
 
 ## Requirements
 
-- Python 3.x
-- `customtkinter` library
+- Python 3.11+
+- `customtkinter` library (for GUI rendering)
 - `requests` library (for fetching real-time exchange rates)
 
 ## Acknowledgments
